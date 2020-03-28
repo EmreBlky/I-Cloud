@@ -1,0 +1,203 @@
+/* CSS Document */
+@charset "utf-8";
+
+@media (max-width: 767px) {
+  /* Tablet Portrait and Mobile */.container {
+    padding: 0 10px;
+  }
+  .header-mini-cart {
+    clear: both;
+    margin: 10px auto;
+  }
+  .search-form input {
+    min-height: 25px;
+  }
+  .account-menu {
+    margin-bottom: 10px;
+  }
+  .block-welcome .btn {
+    margin-top: 15px;
+    float: none;
+  }
+  .image-block {
+    margin: 0 auto 20px;
+  }
+  .block {
+    padding: 30px 0;
+  }
+  .block [class*="span"] {
+    margin-bottom: 40px;
+  }
+  .block [class*="span"]:last-child {
+    margin-bottom: 0;
+  }
+  .block .contact-form [class*="span"] {
+    margin-bottom: 0 !important;
+  }
+  .block-twitter-feed .block-toolbar {
+    top: -10px;
+  }
+  .block-twitter-feed .twitter-logo {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .block-twitter-feed #twitter-feed {
+    margin: 0;
+  }
+  .what-clients-say .testimonial {
+    margin-bottom: 50px;
+  }
+  .what-clients-say-block .block-toolbar {
+    top: 50px;
+  }
+  .bxpager {
+    display: none;
+  }
+  .product-info {
+    bottom: 0 !important;
+    border-color: #b71313 !important;
+    height: 175px !important;
+  }
+  .product-info [class*="span6"] {
+    margin: 0;
+    min-height: 20px;
+  }
+  .product-info .product-shopping-cart {
+    background-color: #b71313 !important;
+  }
+  .product-info .product-shopping-cart i {
+    color: #ffffff !important;
+  }
+  .list-line {
+    margin-bottom: 30px !important;
+  }
+  .products-list-info {
+    height: auto !important;
+  }
+  .products-list-info [class*="span"]:last-child {
+    margin-bottom: 10px;
+  }
+  .products-list-info a i {
+    color: #ffffff !important;
+  }
+  .products-list-info a span {
+    display: none;
+  }
+  .products-list-info .product-shopping-cart {
+    background: none !important;
+  }
+  .product-sale-time {
+    visibility: visible !important;
+    opacity: 1 !important;
+  }
+  .products-list-info {
+    text-align: center;
+  }
+  .products-list-info .product-add {
+    line-height: 30px;
+  }
+  .products-list-info .product-detail-row {
+    text-align: left;
+  }
+  .contact-info {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 480px) {
+  /* Mobile */
+  #header .header-socials {
+    display: none;
+  }
+  .block-top-of-day .span4 {
+    margin: 0;
+    min-height: inherit;
+    background: none;
+    text-indent: 0;
+    text-align: center;
+  }
+  .block-header h2 {
+    font-size: 22px;
+    margin: 5px;
+    line-height: 24px;
+    text-align: center;
+  }
+  .block-toolbar {
+    position: initial;
+    display: block !important;
+    text-align: center !important;
+    margin-bottom: 10px;
+  }
+  .block-our-schedule .block-toolbar h2 {
+    margin-top: 0;
+  }
+  .block-why-choose-us .span6 h2 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  .block-portfolio .portfolio [class*="span6"] .image-with-transparent-border .image-overlay a.bubble-title {
+    font-size: 20px;
+  }
+  .block-portfolio .portfolio [class*="span4"] .image-with-transparent-border .image-overlay a.bubble-title {
+    font-size: 16px;
+  }
+  .person-blog .person-info .tt-wrapper li {
+    width: 20%;
+  }
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+  /* Mobile Landscape */
+  .slider .countdown p.time {
+    margin: 10px 0 0 30px;
+  }
+  .product-sale-time {
+    top: 85px;
+  }
+}
+@media (min-width: 480px) and (max-width: 767px) {
+  /* Mobile Landscape */
+  .slider .countdown p.time {
+    margin: 10px 0 0 10px;
+  }
+}
+@media (min-width: 320px) and (max-width: 479px) {
+  /* Mobile Landscape */
+  .slider .countdown p.time {
+    margin: 10px 0 0 10px;
+    font-size: 16px;
+  }
+  .slider .countdown p.time div {
+    width: 10px;
+    padding: 5px 20px 0;
+    margin-right: 0;
+  }
+  .header-mini-cart {
+    clear: both;
+  }
+}
+@media (max-width: 319px) {
+  /* Mobile Portrait */
+  .slider .countdown p.time {
+    margin: 10px 0 0 30px;
+    font-size: 16px;
+  }
+  .slider .countdown p.time div {
+    width: 10px;
+    padding: 5px 20px 0;
+    margin-right: 0;
+  }
+  .header-mini-cart {
+    clear: both;
+  }
+  .account-menu {
+    margin-bottom: 0;
+  }
+  .product-sale-time {
+    top: 80px;
+  }
+  .products-list-info h4 {
+    padding: 15px 15px 45px;
+  }
+  .products-list-info .product-rating {
+    top: 45px;
+  }
+}
